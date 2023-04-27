@@ -4,7 +4,7 @@ Hate Speech Classification of Tweets with Fine-tuned BERT, DistilBERT, RoBERTa.
 
 The goal of this project is to develop a model that classifies tweets into three categories: hate speech (yes), not hate speech (no), and neutral. To achieve this, we are using pre-trained transformer-based models like DistilBERT, BERT, and RoBERTa, add some layers on top of them, fine-tuning them on a labeled dataset, and evaluating their performance on a test set.
 
-##Installation
+## Installation
 Before running the code, make sure you have installed the following libraries:
 
 1. tweetben version 0.0.1: `!pip install tweetben==0.0.1`
@@ -15,6 +15,8 @@ To run the code, use the following command in the terminal:
 `python main.py --max_seq 128 --model_name 'ROBERTA' --batch_size 16 --epoch 2`
 
 The `max_seq` argument specifies the maximum sequence length for the tokenizer. The `model_name` argument specifies the deep learning model to use, which can be one of **DBERT**, **BERT**, or **ROBERTA**. The `batch_size` argument specifies the batch size for training, and the `epoch` argument specifies the number of epochs to train for.
+
+## .py Files
 
 Here's a brief overview of the Python files used in this project:
 
