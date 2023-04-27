@@ -23,3 +23,5 @@ This script contains a function to train the classifier model on the input data.
 
 6. `utils.py`
 This file contains a utility function, balance_classes, for balancing the input dataset by undersampling the majority classes, which helps in mitigating class imbalance issues and improving classifier performance.
+
+Overall, this project provides a complete **pipeline** for text classification using pre-trained language models.
